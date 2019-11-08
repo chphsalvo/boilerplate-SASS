@@ -1,0 +1,13 @@
+{
+	"version": 3,
+	"file": "style.min.css",
+	"sources": [
+		"sass/style.scss",
+		"sass/import/_import.scss",
+		"sass/typography/_typography.scss",
+		"sass/components/_colors.scss",
+		"sass/components/_buttons.scss"
+	],
+	"names": [],
+	"mappings": "AAAA,OAAO,CAAP,mFAAO"
+}
