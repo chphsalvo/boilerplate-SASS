@@ -1,2 +1,2 @@
-# boilerplate-sass
+# boilerplate-SASS
 SASS Boilerplate
