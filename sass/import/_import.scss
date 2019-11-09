@@ -1,4 +1,16 @@
+
+// Settings
+@import '../settings/breakpoints';
+@import '../settings/colors';
+
+// Mixin
+@import '../mixin/prefix';
+@import '../mixin/responsive';
+@import '../mixin/color';
+
+// Typography
 @import '../typography/typography';
 
+// Components
 @import '../components/colors';
 @import '../components/buttons';
