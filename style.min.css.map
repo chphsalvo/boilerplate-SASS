@@ -11,7 +11,8 @@
 		"sass/mixin/_color.scss",
 		"sass/typography/_typography.scss",
 		"sass/components/_colors.scss",
-		"sass/components/_buttons.scss"
+		"sass/components/_buttons.scss",
+		"sass/components/_forms.scss"
 	],
 	"names": [],
 	"mappings": "AAAA,OAAO,CAAP,mFAAO"

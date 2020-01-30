@@ -1,5 +1,7 @@
 $breakpoints: (
-	'huge':(max-width: 1440px),
+	'huge':(max-width: 2560px),
+	'xbig':(max-width: 1600px),
+	'big':(max-width: 1440px),
 	'xlarge': (max-width: 1366px),
 	'large': (max-width: 1024px),
 	'medium': (max-width: 768px),
