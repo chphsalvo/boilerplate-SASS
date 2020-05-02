@@ -1,10 +1,14 @@
+/**
+ * import/_import.scss Import
+ *
+ * Write a description
+ */
 
 // Settings
 @import '../settings/breakpoints';
 @import '../settings/colors';
 
 // Mixin
-@import '../mixin/prefix';
 @import '../mixin/responsive';
 @import '../mixin/color';
 
