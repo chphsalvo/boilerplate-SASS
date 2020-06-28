@@ -1,38 +1,19 @@
 {
-  "name": "front-end-framework",
+  "name": "boilerplate-sass",
   "version": "1.0.0",
-  "description": "Front-end framework by Christopher Salvo",
+  "description": "<h1>SASS boilerplate</h1> <p></p> <h2>Run project</h2> <pre>   <code>     # Install     git clone https://github.com/chphsalvo/boilerplate-SASS.git     cd boilerplate-SASS     npm install     <br>     # Watch     npm run watch    \t<br>     # Deploy     npm run build   </code> </pre>",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "gulp build",
-    "watch": "gulp watch"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chphsalvo/front-end-framework.git"
+    "url": "git+https://github.com/chphsalvo/boilerplate-SASS.git"
   },
-  "author": "Christopher Salvo",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/chphsalvo/front-end-framework/issues"
+    "url": "https://github.com/chphsalvo/boilerplate-SASS/issues"
   },
-  "homepage": "https://github.com/chphsalvo/front-end-framework#readme",
-  "devDependencies": {
-    "autoprefixer": "^9.7.6",
-    "cssnano": "^4.1.10",
-    "del": "^5.1.0",
-    "gulp": "^4.0.2",
-    "gulp-postcss": "^8.0.0",
-    "gulp-rename": "^2.0.0",
-    "gulp-sass": "^4.1.0",
-    "gulp-sourcemaps": "^2.6.5"
-  },
-  "browserslist": [
-    "> 0.3%",
-    "last 7 versions",
-    "Android >= 4",
-    "Firefox >= 20",
-    "iOS >= 8"
-  ]
+  "homepage": "https://github.com/chphsalvo/boilerplate-SASS#readme"
 }
