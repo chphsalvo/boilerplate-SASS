@@ -6,8 +6,9 @@
   "private": "true",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "nodemon -e scss -x 'npm run build:css'",
-    "build:css": "node-sass sass/ -o ./css --source-map true --output-style expanded --indent-type tab --indent-width 1|postcss ./css/style.css -u autoprefixer -r"
+    "watch": "nodemon -e scss -x 'npm run build:css && npm run build:cssmin'",
+    "build:css": "node-sass sass/ -o ./css --source-map true --output-style expanded --indent-type tab --indent-width 1|postcss ./css/style.css -u autoprefixer -r",
+    "build:cssmin": "node-sass css/style.css css/style.min.css --source-map true --output-style compressed"
   },
   "repository": {
     "type": "git",
