@@ -14,7 +14,15 @@
 // Typography
 @import '../typography/typography';
 
+// Helpers
+@import '../helpers/colors';
+@import '../helpers/margins';
+
+// Forms
+@import '../forms/forms';
+
+// Elements
+@import '../elements/buttons';
+
 // Components
-@import '../components/colors';
-@import '../components/buttons';
-@import '../components/forms';
+@import '../components/component';
