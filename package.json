@@ -1,5 +1,5 @@
 {
-  "name": "front-end-framework",
+  "name": "boilerplate-sass",
   "version": "1.0.0",
   "description": "Front-end framework by Christopher Salvo",
   "main": "index.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chphsalvo/front-end-framework.git"
+    "url": "git+https://github.com/chphsalvo/boilerplate-SASS.git"
   },
   "author": "Christopher Salvo",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/chphsalvo/front-end-framework/issues"
+    "url": "https://github.com/chphsalvo/boilerplate-SASS/issues"
   },
-  "homepage": "https://github.com/chphsalvo/front-end-framework#readme",
+  "homepage": "https://github.com/chphsalvo/boilerplate-SASS#readme",
   "devDependencies": {
     "autoprefixer": "^9.7.6",
     "cssnano": "^4.1.10",
