@@ -1,6 +1,6 @@
 // Dependencies
 var gulp = require("gulp"),
-    sass = require("gulp-sass"), // SASS manager - https://www.npmjs.com/package/gulp-sass
+    sass = require('gulp-sass')(require('node-sass')),
     postcss = require("gulp-postcss"),
     autoprefixer = require("autoprefixer"), // Add vendor prefixes to CSS - https://github.com/postcss/autoprefixer
     cssnano = require("cssnano"), // Compression tool, compact CSS appropriately - https://github.com/cssnano/cssnano
