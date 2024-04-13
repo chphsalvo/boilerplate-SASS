@@ -8,61 +8,51 @@
  * - title
  * - title
  */
-@import "https://cdn.jsdelivr.net/gh/chphsalvo/front-end-framework@0.8/dist/css/style.min.css";
+@import "https://cdn.jsdelivr.net/gh/chphsalvo/stylesheet-framework@0.9.6.7/dist/css/style.min.css";
 /**
- * import/_import.scss Import
+ * abstracts/import/_import.scss Import
  *
  * Write a description
  */
 /**
- * settings/_breackpoints.scss Breackpoints
+ * abstracts/settings/_breackpoints.scss Breackpoints
  *
  * Write a description
  */
 /**
- * settings/_colors.scss Colors
+ * abstracts/settings/_colors.scss Colors
  *
  * Write a description
  */
 /**
- * mixin/_responsive.scss Responsive
+ * abstracts/mixin/_responsive.scss Responsive
  *
  * Write a description
  */
 /**
- * mixin/_color.scss Color
+ * helpers/_colors.scss Colors
  *
  * Write a description
  */
 /**
- * typography/_typography.scss Typography
+ * helpers/_typography.scss Typography
  *
  * Write a description
  */
 /**
- * components/_colors.scss Colors
+ * elements/_buttons.scss Buttons
  *
  * Write a description
  */
 /**
- * components/_buttons.scss Buttons
+ * elements/_forms.scss Forms
  *
  * Write a description
  */
 /**
- * components/_forms.scss Forms
+ * components/_components.scss Component Name
  *
  * Write a description
  */
-body {
-  /*background-color:color(black,base);*/
-  /*palette*/
-  /*
-	@include responsive ('small'){
-		body{
-			background:#000;
-		}
-	}
-	*/ }
 
 /*# sourceMappingURL=style.css.map */
