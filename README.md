@@ -2,16 +2,12 @@
 <p></p>
 <h2>Run project</h2>
 <pre>
-  <code>
-    # Install
-    git clone https://github.com/chphsalvo/boilerplate-SASS.git
-    cd boilerplate-SASS
-    npm install
-    <br>
-    # Watch
-    npm run watch
-   	<br>
-    # Deploy
-    npm run build
-  </code>
+  <code>nvm use</code>
+</pre>
+<pre>
+  <code>npm install</code>
+</pre>
+<pre>
+  <code>npm run watch</code>
+  <code>npm run build</code>
 </pre>
