@@ -10,7 +10,7 @@
  * - title
  */
 
-// Import stylesheet-framework
+// Import front-end-framework
 // Check latest version: https://github.com/chphsalvo/stylesheet-framework/releases
-@import "https://cdn.jsdelivr.net/gh/chphsalvo/stylesheet-framework@0.9.6.5/dist/css/style.min.css";
-@import "import/import";
+@import "https://cdn.jsdelivr.net/gh/chphsalvo/stylesheet-framework@0.9.6.7/dist/css/style.min.css";
+@import "abstracts/import/import";
