@@ -1,1 +1,9 @@
-{"version":3,"sources":["style.scss"],"names":[],"mappings":"AAcA,mGAAO","file":"style.min.css","sourcesContent":["/**\n * style.scss Style\n *\n * Write a description\n */\n\n /*\n * INDEX\n * - title\n * - title\n */\n\n// Import front-end-framework\n// Check latest version: https://github.com/chphsalvo/stylesheet-framework/releases\n@import \"https://cdn.jsdelivr.net/gh/chphsalvo/stylesheet-framework@0.9.6.7/dist/css/style.min.css\";\n@import \"abstracts/import/import\";\n"]}
+{
+	"version": 3,
+	"file": "style.min.css",
+	"sources": [
+		"style.css"
+	],
+	"names": [],
+	"mappings": "AAUA,OAAO,CAAP,2FAAO"
+}

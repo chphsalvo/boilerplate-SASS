@@ -1,35 +1,32 @@
 {
   "name": "boilerplate-sass",
   "version": "1.0.0",
-  "description": "Front-end framework by Christopher Salvo",
+  "description": "SASS boilerplate",
   "main": "index.js",
   "private": "true",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "gulp build",
-    "watch": "gulp watch"
+    "watch": "nodemon -e scss -x 'npm run build:css && npm run build:cssmin'",
+    "build:css": "node-sass sass/ -o ./css --source-map true --output-style expanded --indent-type tab --indent-width 1|postcss ./css/style.css -u autoprefixer -r",
+    "build:cssmin": "node-sass ./css/style.css ./css/style.min.css --source-map true --output-style compressed"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/chphsalvo/boilerplate-SASS.git"
   },
-  "author": "Christopher Salvo",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/chphsalvo/boilerplate-SASS/issues"
   },
   "homepage": "https://github.com/chphsalvo/boilerplate-SASS#readme",
   "devDependencies": {
-    "autoprefixer": "^10.4.19",
-    "cssnano": "^6.1.2",
-    "del": "^5.1.0",
-    "gulp": "^5.0.0",
-    "gulp-postcss": "^10.0.0",
-    "gulp-rename": "^2.0.0",
-    "gulp-sass": "^5.1.0",
-    "gulp-sourcemaps": "^3.0.0",
-    "node-sass": "^9.0.0",
-    "postcss": "^8.4.38"
+    "autoprefixer": "^9.8.4",
+    "browserslist": "^4.21.5",
+    "node-sass": "^4.14.1",
+    "nodemon": "^2.0.22",
+    "postcss": "^7.0.39",
+    "postcss-cli": "^7.1.1"
   },
   "browserslist": [
     "> 0.3%",
