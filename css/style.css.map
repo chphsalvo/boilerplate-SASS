@@ -3,17 +3,16 @@
 	"file": "style.css",
 	"sources": [
 		"../sass/style.scss",
-		"../sass/import/_import.scss",
-		"../sass/settings/_breakpoints.scss",
-		"../sass/settings/_colors.scss",
-		"../sass/mixin/_responsive.scss",
-		"../sass/typography/_typography.scss",
+		"../sass/abstracts/import/_import.scss",
+		"../sass/abstracts/settings/_breakpoints.scss",
+		"../sass/abstracts/settings/_colors.scss",
+		"../sass/abstracts/mixin/_responsive.scss",
 		"../sass/helpers/_colors.scss",
-		"../sass/helpers/_margins.scss",
-		"../sass/forms/_forms.scss",
+		"../sass/helpers/_typography.scss",
 		"../sass/elements/_buttons.scss",
+		"../sass/elements/_forms.scss",
 		"../sass/components/_component.scss"
 	],
 	"names": [],
-	"mappings": "AAAA;;;;GAIG;AAEF;;;;GAIE;AAIH,OAAO,CAAP,2FAAO;ACdP;;;;GAIG;ACJH;;;;GAIG;ACJH;;;;GAIG;ACJH;;;;GAIG;ACJH;;;;GAIG;ACJH;;;;GAIG;ACJH;;;;GAIG;AAEH,AAAA,WAAW,CAAA;CACP,WAAW,EAAE,IAAI;CACjB,YAAY,EAAE,IAAI;CAMrB;;AHWG,MAAM,EAAE,SAAS,EAAE,KAAK;CGnB5B,AAAA,WAAW,CAAA;EAKH,WAAW,EAAE,IAAI;EACjB,YAAY,EAAE,IAAI;EAEzB;;;AACD,AAAA,YAAY,CAAA;CACR,YAAY,EAAE,IAAI;CAClB,aAAa,EAAE,IAAI;CAMtB;;AHEG,MAAM,EAAE,SAAS,EAAE,KAAK;CGV5B,AAAA,YAAY,CAAA;EAKJ,YAAY,EAAE,IAAI;EAClB,aAAa,EAAE,IAAI;EAE1B;;;AACD,AAAA,cAAc,CAAA;CACV,UAAU,EAAE,IAAI;CAChB,aAAa,EAAE,IAAI;CAMtB;;AHPG,MAAM,EAAE,SAAS,EAAE,KAAK;CGD5B,AAAA,cAAc,CAAA;EAKN,UAAU,EAAE,IAAI;EAChB,aAAa,EAAE,IAAI;EAE1B;;;AACD,AAAA,eAAe,CAAA;CACX,WAAW,EAAE,IAAI;CACjB,cAAc,EAAE,IAAI;CAMvB;;AHhBG,MAAM,EAAE,SAAS,EAAE,KAAK;CGQ5B,AAAA,eAAe,CAAA;EAKP,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,IAAI;EAE3B;;;ACzCD;;;;GAIG;ACJH;;;;GAIG;ACJH;;;;GAIG"
+	"mappings": "AAAA;;;;GAIG;AAEF;;;;GAIE;AAIH,OAAO,CAAP,2FAAO;ACdP;;;;GAIG;ACJH;;;;GAIG;ACJH;;;;GAIG;ACJH;;;;GAIG;ACJH;;;;GAIG;ACJH;;;;GAIG;ACJH;;;;GAIG;ACJH;;;;GAIG;ACJH;;;;GAIG"
 }

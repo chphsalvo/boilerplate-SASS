@@ -8,29 +8,24 @@
  * - title
  * - title
  */
-@import "https://cdn.jsdelivr.net/gh/chphsalvo/stylesheet-framework@0.9.6.5/dist/css/style.min.css";
+@import "https://cdn.jsdelivr.net/gh/chphsalvo/stylesheet-framework@0.9.6.7/dist/css/style.min.css";
 /**
- * import/_import.scss Import
+ * abstracts/import/_import.scss Import
  *
  * Write a description
  */
 /**
- * settings/_breackpoints.scss Breackpoints
+ * abstracts/settings/_breackpoints.scss Breackpoints
  *
  * Write a description
  */
 /**
- * settings/_colors.scss Colors
+ * abstracts/settings/_colors.scss Colors
  *
  * Write a description
  */
 /**
- * mixin/_responsive.scss Responsive
- *
- * Write a description
- */
-/**
- * typography/_typography.scss Typography
+ * abstracts/mixin/_responsive.scss Responsive
  *
  * Write a description
  */
@@ -40,60 +35,7 @@
  * Write a description
  */
 /**
- * helpers/_margins.scss Colors
- *
- * Write a description
- */
-.marginPage {
-	margin-left: 50px;
-	margin-right: 50px;
-}
-
-@media (max-width: 640px) {
-	.marginPage {
-		margin-left: 25px;
-		margin-right: 25px;
-	}
-}
-
-.paddingPage {
-	padding-left: 50px;
-	padding-right: 50px;
-}
-
-@media (max-width: 640px) {
-	.paddingPage {
-		padding-left: 25px;
-		padding-right: 25px;
-	}
-}
-
-.marginSection {
-	margin-top: 80px;
-	margin-bottom: 80px;
-}
-
-@media (max-width: 640px) {
-	.marginSection {
-		margin-top: 40px;
-		margin-bottom: 40px;
-	}
-}
-
-.paddingSection {
-	padding-top: 80px;
-	padding-bottom: 80px;
-}
-
-@media (max-width: 640px) {
-	.paddingSection {
-		padding-top: 40px;
-		padding-bottom: 40px;
-	}
-}
-
-/**
- * forms/_forms.scss Forms
+ * helpers/_typography.scss Typography
  *
  * Write a description
  */
@@ -103,8 +45,13 @@
  * Write a description
  */
 /**
- * components/_component.scss Component
+ * elements/_forms.scss Forms
  *
  * Write a description
  */
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyIsIi4uL3Nhc3MvaW1wb3J0L19pbXBvcnQuc2NzcyIsIi4uL3Nhc3Mvc2V0dGluZ3MvX2JyZWFrcG9pbnRzLnNjc3MiLCIuLi9zYXNzL3NldHRpbmdzL19jb2xvcnMuc2NzcyIsIi4uL3Nhc3MvbWl4aW4vX3Jlc3BvbnNpdmUuc2NzcyIsIi4uL3Nhc3MvdHlwb2dyYXBoeS9fdHlwb2dyYXBoeS5zY3NzIiwiLi4vc2Fzcy9oZWxwZXJzL19jb2xvcnMuc2NzcyIsIi4uL3Nhc3MvaGVscGVycy9fbWFyZ2lucy5zY3NzIiwiLi4vc2Fzcy9mb3Jtcy9fZm9ybXMuc2NzcyIsIi4uL3Nhc3MvZWxlbWVudHMvX2J1dHRvbnMuc2NzcyIsIi4uL3Nhc3MvY29tcG9uZW50cy9fY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7RUNJRTtBREVEOzs7O0VDR0M7QURLRixtR0FBTztBRWRQOzs7O0VEZUU7QUVmRjs7OztFRm9CRTtBR3BCRjs7OztFSHlCRTtBSXpCRjs7OztFSjhCRTtBSzlCRjs7OztFTG1DRTtBTW5DRjs7OztFTndDRTtBT3hDRjs7OztFUDZDRTtBT3ZDRjtDQUNJLGlCQUFpQjtDQUNqQixrQkFBa0I7QVB5Q3RCOztBSXhCSTtDR25CSjtFQUtRLGlCQUFpQjtFQUNqQixrQkFBa0I7Q1AyQ3pCO0FBQ0Q7O0FPekNBO0NBQ0ksa0JBQWtCO0NBQ2xCLG1CQUFtQjtBUDRDdkI7O0FJcENJO0NHVko7RUFLUSxrQkFBa0I7RUFDbEIsbUJBQW1CO0NQOEMxQjtBQUNEOztBTzVDQTtDQUNJLGdCQUFnQjtDQUNoQixtQkFBbUI7QVArQ3ZCOztBSWhESTtDR0RKO0VBS1EsZ0JBQWdCO0VBQ2hCLG1CQUFtQjtDUGlEMUI7QUFDRDs7QU8vQ0E7Q0FDSSxpQkFBaUI7Q0FDakIsb0JBQW9CO0FQa0R4Qjs7QUk1REk7Q0dRSjtFQUtRLGlCQUFpQjtFQUNqQixvQkFBb0I7Q1BvRDNCO0FBQ0Q7O0FRNUZBOzs7O0VSa0dFO0FTbEdGOzs7O0VUdUdFO0FVdkdGOzs7O0VWNEdFIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */
+/**
+ * components/_components.scss Component Name
+ *
+ * Write a description
+ */
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyIsIi4uL3Nhc3MvYWJzdHJhY3RzL2ltcG9ydC9faW1wb3J0LnNjc3MiLCIuLi9zYXNzL2Fic3RyYWN0cy9zZXR0aW5ncy9fYnJlYWtwb2ludHMuc2NzcyIsIi4uL3Nhc3MvYWJzdHJhY3RzL3NldHRpbmdzL19jb2xvcnMuc2NzcyIsIi4uL3Nhc3MvYWJzdHJhY3RzL21peGluL19yZXNwb25zaXZlLnNjc3MiLCIuLi9zYXNzL2hlbHBlcnMvX2NvbG9ycy5zY3NzIiwiLi4vc2Fzcy9oZWxwZXJzL190eXBvZ3JhcGh5LnNjc3MiLCIuLi9zYXNzL2VsZW1lbnRzL19idXR0b25zLnNjc3MiLCIuLi9zYXNzL2VsZW1lbnRzL19mb3Jtcy5zY3NzIiwiLi4vc2Fzcy9jb21wb25lbnRzL19jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7OztFQ0lFO0FERUQ7Ozs7RUNHQztBREtGLG1HQUFPO0FFZFA7Ozs7RURlRTtBRWZGOzs7O0VGb0JFO0FHcEJGOzs7O0VIeUJFO0FJekJGOzs7O0VKOEJFO0FLOUJGOzs7O0VMbUNFO0FNbkNGOzs7O0VOd0NFO0FPeENGOzs7O0VQNkNFO0FRN0NGOzs7O0VSa0RFO0FTbERGOzs7O0VUdURFIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */
