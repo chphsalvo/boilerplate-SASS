@@ -1,9 +1,1 @@
-{
-	"version": 3,
-	"file": "style.min.css",
-	"sources": [
-		"style.css"
-	],
-	"names": [],
-	"mappings": "AAUA,OAAO,CAAP,2FAAO"
-}
+{"version":3,"sources":["%3Cinput%20css%20HRq8Ri%3E"],"names":[],"mappings":"AAAA,kGAAkG","file":"style.min.css","sourcesContent":["@import\"https://cdn.jsdelivr.net/gh/chphsalvo/stylesheet-framework@0.9.6.7/dist/css/style.min.css\";\n/*# sourceMappingURL=style.min.css.map */\n"]}

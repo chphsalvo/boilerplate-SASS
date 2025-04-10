@@ -5,10 +5,8 @@
   "main": "index.js",
   "private": "true",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "nodemon -e scss -x 'npm run build:css && npm run build:cssmin'",
-    "build:css": "node-sass sass/ -o ./css --source-map true --output-style expanded --indent-type tab --indent-width 1|postcss ./css/style.css -u autoprefixer -r",
-    "build:cssmin": "node-sass ./css/style.css ./css/style.min.css --source-map true --output-style compressed"
+    "watch": "node build.js --watch",
+    "build": "node build.js"
   },
   "repository": {
     "type": "git",
@@ -21,18 +19,16 @@
   },
   "homepage": "https://github.com/chphsalvo/boilerplate-SASS#readme",
   "devDependencies": {
-    "autoprefixer": "^9.8.4",
-    "browserslist": "^4.21.5",
-    "node-sass": "^4.14.1",
-    "nodemon": "^2.0.22",
-    "postcss": "^7.0.39",
-    "postcss-cli": "^7.1.1"
+    "autoprefixer": "^10.4.0",
+    "esbuild": "^0.19.9",
+    "esbuild-sass-plugin": "^2.16.1",
+    "postcss": "^8.4.0",
+    "sass": "^1.70.0"
   },
   "browserslist": [
     "> 0.3%",
     "last 7 versions",
-    "Android >= 4",
-    "Firefox >= 20",
-    "iOS >= 8"
-  ]
+    "not dead"
+  ],
+  "type": "module"
 }

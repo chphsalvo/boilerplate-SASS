@@ -42,10 +42,6 @@ boilerplate-SASS/
 │   └── ...          # SASS source files
 ```
 
-## License
-
-This project is licensed under the [GPL-3.0 License](https://github.com/chphsalvo/boilerplate-SASS/blob/master/LICENSE).
-
 ---
 
 For more details, visit the official repository on [GitHub](https://github.com/chphsalvo/boilerplate-SASS).

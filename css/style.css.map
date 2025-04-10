@@ -1,18 +1,1 @@
-{
-	"version": 3,
-	"file": "style.css",
-	"sources": [
-		"../sass/style.scss",
-		"../sass/abstracts/import/_import.scss",
-		"../sass/abstracts/settings/_breakpoints.scss",
-		"../sass/abstracts/settings/_colors.scss",
-		"../sass/abstracts/mixin/_responsive.scss",
-		"../sass/helpers/_colors.scss",
-		"../sass/helpers/_typography.scss",
-		"../sass/elements/_buttons.scss",
-		"../sass/elements/_forms.scss",
-		"../sass/components/_component.scss"
-	],
-	"names": [],
-	"mappings": "AAAA;;;;GAIG;AAEF;;;;GAIE;AAIH,OAAO,CAAP,2FAAO;ACdP;;;;GAIG;ACJH;;;;GAIG;ACJH;;;;GAIG;ACJH;;;;GAIG;ACJH;;;;GAIG;ACJH;;;;GAIG;ACJH;;;;GAIG;ACJH;;;;GAIG;ACJH;;;;GAIG"
-}
+{"version":3,"sources":["%3Cinput%20css%20pirbOM%3E"],"names":[],"mappings":"AAAA,mGAAmG;;AAEnG,oBAAoB","file":"style.css","sourcesContent":["@import \"https://cdn.jsdelivr.net/gh/chphsalvo/stylesheet-framework@0.9.6.7/dist/css/style.min.css\";\n\n/* sass/style.scss */\n/*# sourceMappingURL=style.css.map */\n"]}
