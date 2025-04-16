@@ -16,7 +16,11 @@ function createBuildOptions(outfile, minify) {
     outfile,
     minify,
     sourcemap: true,
-    plugins: [sassPlugin()]
+    plugins: [sassPlugin()],
+    external: [
+      '*.svg', '*.png', '*.jpg', '*.jpeg', '*.gif',
+      '*.woff', '*.woff2', '*.ttf', '*.otf', '*.eot'
+    ]
   };
 }
 
